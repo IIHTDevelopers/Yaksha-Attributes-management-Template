@@ -1,0 +1,57 @@
+Using Multiple Classes, Class Attributes, Accessing and Modifying Attributes in Java
+Project Abstract
+The purpose of this project is to demonstrate how multiple classes interact with each other, how to define and access class attributes, and how to modify these attributes in Java. This project focuses on teaching learners how to:
+
+Use multiple classes in a Java program.
+Define attributes in classes.
+Access and modify class attributes.
+Use methods to interact with attributes of objects.
+By the end of the project, participants will understand:
+
+How to define multiple classes in Java.
+How to create and initialize objects from those classes.
+How to define, access, and modify attributes of an object.
+How to interact with objects using methods to manipulate attributes.
+Tasks Overview
+Task 1: Using Multiple Classes
+Objective: Create two classes: Person and Address. The Person class will have attributes like name and age, and the Address class will hold information about the person's address. We will use both classes together in the main program.
+
+Detailed Description: In this task, you are required to define two classes: Person and Address.
+
+The Address class will contain properties like street and city.
+The Person class will have properties like name, age, and a reference to the Address class to store the address of the person.
+Steps:
+
+Define a class named Address with properties street and city, and a constructor to initialize them.
+Define a class named Person with properties name, age, and a reference to an Address object, and include a constructor to initialize these properties.
+In the Person class, define a method displayDetails() to print the person's name, age, and address using the displayAddress() method from the Address class.
+Task 2: Class Attributes
+Objective: Define and initialize the attributes of the Person and Address classes.
+
+Detailed Description: In this task, you will define attributes within the Person and Address classes and initialize them using the constructor.
+
+Steps:
+
+Define properties for the Address class: street (String) and city (String).
+Define properties for the Person class: name (String), age (int), and a reference to the Address class.
+Initialize these properties using constructors in both classes.
+Task 3: Accessing Attributes
+Objective: Access and display the attributes of the Person and Address classes.
+
+Detailed Description: In this task, you will create an object for both Person and Address classes, and access their attributes to display the details.
+
+Steps:
+
+Instantiate an object address1 of the Address class with specific values for street and city.
+Instantiate an object person1 of the Person class and pass the address1 object to the constructor.
+Call the displayDetails() method of person1 to display the person's name, age, and address.
+Task 4: Modifying Attributes
+Objective: Modify the attributes of the Person and Address objects.
+
+Detailed Description: In this task, you will modify the attributes of the Person and Address objects.
+
+Steps:
+
+Use the modifyDetails() method of the Person class to change the name and age attributes.
+Use the modifyAddress() method of the Person class to change the street and city of the Address object.
+After modifying the attributes, call the displayDetails() method again to display the updated details.
